@@ -4,5 +4,3 @@ services:
   runner:
     image: drone/drone-runner-ssh
     restart: always
-    ports:
-      - 3002:3000
